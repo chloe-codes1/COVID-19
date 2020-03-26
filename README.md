@@ -1,6 +1,6 @@
 # COVID-19
 
-> COVID-19 Patient Management System
+> COVID-19 Patient Management System with Java
 
 <br>
 
@@ -10,10 +10,11 @@
 
 <br>
 
-- [x] #### COVID-19 Patient List
-  - Classify the whole patient list into COVID-19 patient list
-  - Save the list in CSV format
+- [x] **COVID-19 Patient List**
+  - [x] Classify the whole patient list into COVID-19 patient list
+  - [x] Save the list in CSV format
 
 <br>
 
 *more coming soon...*
+
