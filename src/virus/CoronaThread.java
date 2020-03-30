@@ -10,8 +10,12 @@ public class CoronaThread extends Thread{
 	
 	@Override
 	public void run() {
-		for (int i = 0 ; i < 10000 ; i++) {
-			int j = i*100;
+		try {
+			System.out.println("thread try start");
+			Thread.sleep(5000);
+			System.out.println("thread try end");
+		} catch (InterruptedException e) {
+			System.out.println("thread interrupted raised");
 		}
 		System.out.println(num);
 	}
